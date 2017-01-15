@@ -3,7 +3,7 @@
 
 # docker-pelican
 
-Lightweight but fully-fledged pelican docker image.
+Lightweight but fully-fledged [Pelican](https://blog.getpelican.com/) image.
 
 Forked from https://github.com/apihackers/docker-pelican
 

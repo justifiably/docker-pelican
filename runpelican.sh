@@ -4,6 +4,6 @@
 while true; do
     pelican /srv/pelican/content -o /srv/pelican/output/ -s pelicanconf.py
     inotifywait -qqr --exclude "\#.*|.*~" -e close_write,move,delete,create /srv/pelican/content /srv/pelican/config
-    sleep 3
+    sleep 5
     echo "Rerunning pelican on `date`"
 done
